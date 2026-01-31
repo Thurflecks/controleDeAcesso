@@ -1,0 +1,32 @@
+{
+  "name": "controledeacesso",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Thurflecks/controleDeAcesso#readme",
+  "bugs": {
+    "url": "https://github.com/Thurflecks/controleDeAcesso/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thurflecks/controleDeAcesso.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^8.0.4",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.16.2",
+    "nodemon": "^3.1.11",
+    "sequelize": "^6.37.7"
+  }
+}
