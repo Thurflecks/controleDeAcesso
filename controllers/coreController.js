@@ -77,4 +77,12 @@ module.exports = class CoreController {
             res.status(500).redirect('/register');
         }
     }
+    static async acesso(req, res) {
+        try {
+            res.render("home");
+        } catch (error) {
+            req.flash('error', 'Erro ao carregar a página de acesso.');
+            res.status(500).redirect("/");
+        }
+    }
 }
